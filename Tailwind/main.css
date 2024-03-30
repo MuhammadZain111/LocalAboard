@@ -1,0 +1,14 @@
+@tailwind base;
+
+
+
+.activebtn:active
+{
+    border-color:red;
+   background-color: aqua; 
+}
+
+
+@tailwind components;
+@tailwind utilities;
+

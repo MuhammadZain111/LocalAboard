@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <!-- <link rel="stylesheet" href="./tailwind.css"> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     
+
+</head>
+
+
+
+<body class="bg-white-800">
+
+<div class="maincontainer container mx-auto  rounded-none max-h-full  max-w-full sm:max-w-full sm:min-w-sm sm:px-[2%]  sm:overflow-hidden md:max-w-full       md:px-[3%]  md:overflow-hidden  lg:px-[2%] lg:max-w-full lg:overflow-hidden  xl:max-w-screen-full xl:overflow-hidden overflow-hidden ">
+
+
+<div class="container min-w-12 max-w-64 min-h-6 max-h-32 flex p-4  ">
+<div  class="w-5 h-6   inline-block    "  >
+    <img src="/Tailwind/backarrrow.svg" class="max-w-full  pt-2  "   >
+</div>    
+<div  class="  h-8 pt-1">
+    <h4>Back</h4>
+</div>
+
+</div>
+
+
+<div class="topcontainer bg-red-500  rounded-none sm:rounded-xl  mt-26  h-60 container w-full  min-w-full 
+min-h-16  max-h-64 max-w-full   mx-auto font-bold text-white flex flex-row sm:font-extrabold  sm:max-w-full  sm:h-64          sm:overflow-hidden md:max-w-full md:mx-auto  md:h-64 lg-min-w-full lg:max-w-full md:mx-auto xl:max-w-screen-full  
+">
+
+<div class="content pl-8 pt-6 min-h-10 max-h-full  flex flex-col justify-center items-start min-w-70 max-w-full w-3/4  sm:pl-12   sm:pt-2 sm:mt-2           ">
+
+    <div class="    " >
+        <h1 class="text-2xl sm:text-3xl sm:pt-4  sm:mt-2    md:text-4xl   lg:text-4xl   text-white-400 ">Upload your property details</h1>
+    </div>
+    
+    <h2 class="text-base sm:text-1xl sm:font-extralight md:text-2xl lg:text-2xl      font-thin text-white-200 pt-2                   "  >Get the best value for your property in a few steps.</h2>  
+
+   </div>
+   
+  <div class="container flex justify-end min-w-1/5 w-1/5 max-w-1/5                    ">
+    <img class="inline  object-contain  h-60 "  src="" alt="" >
+  </div> 
+</div>
+
+
+<div class="sectiontwo mt-5 max-w-full w-full min-w-full    sm:w-full sm:mx-[2%] md:mx-[2%] lg:mx-[6%]  flex flex-row  ">
+
+    <div class="want-cont container flex flex-col w-full min-w-[50%] sm:w-full md:w-full  lg:w-[50%] max-width-full    mt-12  mx-6    overflow-hidden        ">
+
+    <div class="grid-first-item  overflow-hidden inline   mb-6    text-gray-800           ">
+
+    <h1  class="font-bold  text-base  pb-3 font-semibold  text-small pb-3 sm:text-lg sm:font-semibold md:text-xl lg:text-xl    "  >What do you want to do?</h1>
+        
+    <div class="buttoncontainer flex flex-row min-h-2  pb-2   ">
+    
+        <div class="Sellcont container  w-28 h-14  p-1   border-cyan-400  text-xs  overflow-hidden  ">
+            <button  class=" border spacesbtn activebtn  min-w-full  min-h-full  p-2  rounded-xl   overflow-hidden  "  >
+            <img  class="inline object-contain  h-5  pr-4  " src="/Tailwind/sell-icon.svg" alt="Sellogo ">Sell</button>
+            </div>
+                    
+            <div class="Rentcontainer container  w-28  p-1 h-14 rounded-sm    text-xs    overflow-hidden  ">
+            <button class=" border  spacesbtn min-w-full  min-h-full  p-2 rounded-xl  overflow-hidden    "    >
+            <img class="inline  object-contain  h-5  pr-4  spacesbtn" src="/Tailwind/rent-icon.svg" alt="">Rent</button>
+            </div>
+    
+    </div>
+  </div>
+        
+   <div class="gridseconditem  row-span-1 h-12  h-24     ">
+      
+    <div class="haveheading ">
+            <h1  class="pb-3 text-lg font-semibold pb-3 sm:text-lg sm:font-semibold md:text-xl lg:text-xl  ">What kind of property do you have?</h1>
+            </div>
+            
+            <div class="categorycon  flex flex-row ">
+            
+
+                <div class="resedetialbutton  h-12    afterclick">
+                    <button class="blinkbtn categorybtn p-2  pl-3  pb-2   max-height-full    focus:outline-none  sm:text-lg sm:font-medium md:text-xl lg:text-xl" data-target="resedentialcont">Residential</button>
+                </div>
+                
+                <div class="plotbtn h-12  ">
+                    <button class="blinkbtn categorybtn p-2 border-none spacesbtn  activebtn   border   px-8 pb-2  active:border-red-500    sm:text-lg sm:font-medium md:text-xl lg:text-xl" data-target="Plotcont">Plot</button>  
+                </div>
+                
+                <div class="commercialbtn   ">
+                    <button class="blinkbtn categorybtn p-2  border-none  spacesbtn activebtn  border  px-8 pb-2 active:border-red-500 sm:text-lg sm:font-medium md:text-xl lg:text-xl" data-target="commercialcont">Commercial</button>
+                </div>
+            </div>
+     </div>
+
+     
+     <div class="gridthirditem">
+
+   
+     
+        <div class="resedentialcont varietycontainer py-4 h-64  flex flex-row flex-wrap inline justify-start items-start pb-7 sm:pr-[50%] md:pr-[20%] lg:pr-[50%]  max-h-[100%] " id="resedentialcont"  >
+        
+            <div  class="homecont resedentialbtn    min-w-4 min-h-4  w-32  p-1 h-14 rounded-sm  text-xs   inline-block  overflow-hidden">
+            <button  class=" border spacesbtn activebtn text-xs min-w-full  min-h-full   p-2 rounded-xl  "  >
+
+
+                <img  class="inline object-contain h-5  pr-4     " src="/Tailwind/house.svg" alt="Sellogo ">House<button>
+            </div> 
+            
+            <div  class="homecont  w-32  p-1 h-14  min-w-4 min-h-10     rounded-sm  text-xs  inline-block overflow-hidden  ">
+                <button  class=" border spacesbtn   text-xs min-w-full  min-h-full  p-2 rounded-xl  "  >
+                    <img class="inline object-contain h-5  pr-4 " src="/Tailwind/apartment.svg" alt="Sellogo ">Flat<button>
+                </div> 
+               
+                <div  class="homecont  w-36  p-1 h-14 rounded-sm  text-xs    inline-block overflow-hidden  ">
+                    <button  class=" border spacesbtn   text-xs min-w-full  min-h-full  min-w-full  min-h-full  p-1 rounded-xl  "  >
+                        <img class="inline object-contain h-5  pr-2 " src="/Tailwind/lower-portion.svg" alt="Sellogo ">Lower Portion<button>
+                    </div> 
+                
+                    <div  class="homecont  w-36  p-1 h-14 rounded-sm  text-xs  inline-block  overflow-hidden   ">
+                        <button  class=" border spacesbtn   text-xs  min-w-full  min-h-full  p-1 rounded-xl  "  >
+                            <img class="inline object-contain h-5  pr-2 " src="/Tailwind/upper-portion.svg" alt="Sellogo ">Upper Portion<button>
+                        </div> 
+                   
+                        <div  class="homecont  w-32  p-1 h-14 rounded-sm  text-xs    inline-block  overflow-hidden ">
+                            <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-2 rounded-xl  "  >
+                                <img class="inline object-contain h-5  pr-4 " src="/Tailwind/basement.svg " alt="Sellogo ">Basement<button>
+                            </div>                  
+        </div>
+
+   <!-- here plotcontainercode starts  -->
+   <div class="Plotcont varietycontainer container py-4  h-64   w-68  max-w-100  flex flex-row  pb-7   sm:pr-[50%]  md:pr-[20%] lg:pr-[50%]   max-h-[100%]           "  id="Plotcont"   >
+              
+    <div  class="homecont resedentialbtn  w-40  p-1 h-14 rounded-sm text-xs  inline-block     ">
+    <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-2 rounded-xl  "  >
+        <img  class="inline object-contain h-5  pr-4     " src="/Tailwind/house.svg" alt="Sellogo ">Resedential  Plot<button>
+    </div> 
+    
+    <div  class="homecont  w-40  p-1 h-14 rounded-sm  text-xs   inline-block    ">
+        <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-2 rounded-xl  "  >
+            <img class="inline object-contain h-5  pr-4 " src="/Tailwind/apartment.svg" alt="Sellogo ">Commercial Plot<button>
+        </div> 
+       
+        <div  class="homecont  w-40  p-1 h-14 rounded-sm  text-xs  inline-block     ">
+            <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-1 rounded-xl  "  >
+                <img class="inline object-contain h-5  pr-2 " src="/Tailwind/lower-portion.svg" alt="Sellogo ">Agricultural Plot<button>
+            </div> 
+        
+            <div  class="homecont  w-40  p-1 h-14 rounded-sm  text-xs   inline-block    ">
+                <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-1 rounded-xl  "  >
+                    <img class="inline object-contain h-5  pr-2 " src="/Tailwind/upper-portion.svg" alt="Sellogo ">Industrial Land<button>
+                </div> 
+           
+                <div  class="homecont  w-36  p-1 h-14 rounded-sm  text-xs   inline-block    ">
+                    <button  class=" border active:border-red-500 text-xs  min-w-full  min-h-full  p-2 rounded-xl         "  >
+                        <img class="inline object-contain h-5  pr-4 " src="/Tailwind/basement.svg " alt="Sellogo ">FarmHouse Plot<button>
+                    </div> 
+
+    </div>                
+
+  <!-- her is the commercial container works  -->
+        
+  <div class="commercialcont   varietycontainer  container py-4   h-64  flex flex-row flex-wrap pb-7   sm:pr-[50%]  md:pr-[20%] lg:pr-[60%]         "  id="commercialcont" >
+        
+            
+    <div  class="homecont resedentialbtn  w-36  p-1 h-14 rounded-sm    text-xs   inline-block    ">
+    <button class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-2 rounded-xl  "  >
+        <img  class="inline object-contain h-5    pr-3    " src="/Tailwind/house.svg" alt="Sellogo ">Office<button>
+    </div> 
+    
+    <div  class="homecont  w-32  p-1 h-14 rounded-sm  text-xs   inline-block    ">
+        <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-2 rounded-xl  "  >
+            <img class="inline object-contain h-5  pr-4 " src="/Tailwind/apartment.svg" alt="Sellogo ">Shop<button>
+        </div> 
+       
+        <div  class="homecont  w-36  p-1 h-14 rounded-sm  text-xs  inline-block     ">
+            <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-1 rounded-xl  "  >
+                <img class="inline object-contain h-5  pr-2 " src="/Tailwind/lower-portion.svg" alt="Sellogo ">Ware House<button>
+            </div> 
+        
+            <div  class="homecont  w-36  p-1 h-14 rounded-sm  text-xs inline-block      ">
+                <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-1 rounded-xl  "  >
+                    <img class="inline object-contain h-5  pr-2 " src="/Tailwind/upper-portion.svg" alt="Sellogo ">Building<button>
+                </div> 
+           
+                <div  class="homecont  w-32  p-1 h-14 rounded-sm  text-xs inline-block      ">
+                    <button  class=" border active:border-red-500  text-xs  min-w-full  min-h-full  p-2 rounded-xl  "  >
+                        <img class="inline object-contain h-5  pr-4 " src="/Tailwind/basement.svg " alt="Sellogo ">Hall<button>
+                    </div> 
+</div>
+
+</div>
+
+
+<form  action="submit" > 
+
+<div class="griditemthree  mb-10 w-full min-w-[80%] p-2 max-w-full sm:w-[90%]    md:w-[80%]  lg:w-[80%]   overflow-hidden    ">
+
+         <div   class=" container max-w-full  w-[90%]   h-6  pb-4  overflow-hidden mb-4   " >
+            <h5  class="propertyquestion  text-lg  font-bold   min-w-full  min-h-full text-gray-800  overflow-hidden">Which City is your property in ?</h5>
+        </div>
+    
+       <div class=" select-cont h-12  w-full   min-w-full  max-w-full sm:w-full p-2 bg-slate-50   border-2 border-gray-300  rounded-sm   flex  overflow-hidden  ">
+       <div  class="w-8 h-6 object-contain  p-1 " >
+        <img src="/Tailwind/search.svg" alt="search logo">
+       </div>
+
+    
+        <select id="city" name="city" required   class="border-none  bg-slate-50  rounded-smfocus:border-none outline-none focus:border-transparent  max-width-full min-w-[90%]  min-h-full max-w-full   max-h-full    overflow-hidden ">
+            
+        <option value="Select City" selected disabled>Select City</option>
+          <option value="Select City">Islamabad</option>
+          <option value="los-angeles">Karachi </option>
+          <option value="chicago">Multan</option>
+          <option value="houston">Failabad</option>
+          <option value="miami">Sialkot</option>
+          <!-- Add more options as needed -->
+        </select>
+        
+       </div> 
+        
+  
+    </div>
+    
+
+
+ <div class="fourthgriditem  mb-10 w-full min-w-[80%] p-2 max-w-full sm:w-[90%]    md:w-[80%]  lg:w-[80%]">
+
+    <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold    min-w-full  min-h-full   overflow-hidden">Which area is your property in ?</h5>
+    </div>
+ 
+   <div   class="select-cont h-12  w-full   min-w-full  max-w-full sm:w-full p-2 bg-slate-50   border-2 border-gray-300  rounded-sm   flex  overflow-hidden   "  >
+    
+    <div  class="w-8 h-6 object-contain  p-1 " >
+        <img src="/Tailwind/search.svg" alt="search logo">
+       </div>
+
+    <select id="area" name="area" required class="border-none custom-select focus:border-none focus:border-transparent   min-w-[90%]      max-w-full  bg-slate-50 outline-none min-h-full max-h-full    overflow-hidden  ">
+   
+     <option value="Select Area" selected disabled>Select Area</option>
+      <option value="Select City">Main Area</option>
+      <option value="los-angeles">Local Area</option>
+      <option value="chicago">Market Area</option>
+      <option value="houston">Housing Area</option>
+      <option value="miami">Miami</option>
+      <!-- Add more options as needed -->
+    </select>
+   </div> 
+
+ </div>
+
+  <div class="fifthgriditem  mb-10   w-full min-w-[80%] p-2 max-w-full sm:w-[90%]    md:w-[80%]  lg:w-[80%]   ">
+
+    <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold     min-w-full  min-h-full   overflow-hidden">What is size of your property ?</h5>
+    </div>
+ 
+   <div   class="select-cont  p-2 w-64  h-12    w-full   min-w-full  max-w-full sm:w-full p-2 bg-slate-50   border-2 border-gray-300  rounded-sm   flex     rounded-sm     overflow-hidden flex "  >
+     <input type="text" id="size"  required   class="border-none focus:border-none min-w-[80%]   focus:border-transparent  bg-slate-50 outline-none  sm:min-w-[90%]  min-h-full max-w-[90%]   max-h-full  overflow-hidden   ">     </input>
+     
+     <div  class="h-full  sm:p-1  "    >
+        <img  class=" h-full object-contain"   src="/Tailwind/writelog.svg" > 
+     </div>
+     
+  </div>
+
+</div>   
+
+
+<div class="gridsixthitem  mb-10 w-[60%] min-w-[20%]  max-w-full  sm:w-[85%] ">
+
+   
+    <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold     min-w-full  min-h-full   overflow-hidden">What is  your asking price ?</h5>
+    </div>
+ 
+   <div   class="select-cont  p-2 w-64  h-12  w-full   min-w-full  max-w-full sm:w-full p-2 bg-slate-50   border-2 border-gray-300  rounded-sm overflow-hidden flex "  >
+     <input type="text"  id="price"   required class="border-none focus:border-none min-w-[80%] focus:border-transparent bg-slate-50 outline-none   w-[70%]    max-width-[70%] sm:min-w-[90%]  min-h-full  max-h-full  overflow-hidden"    ></input>  
+    <div   class="h-full minw-[20%]  "   >
+    <span class="text-red-700   h-full w-full    ">PKR</span>
+      </div>
+  </div>
+  
+  </div>
+
+
+  <div class="gridsixthitem  mb-10 w-[60%] min-w-[20%]  max-w-full  sm:w-[85%]  ">
+  
+    <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold  min-w-full  min-h-full   overflow-hidden">Choose no of Rooms?</h5>
+    </div>
+ 
+   <div   class="select-cont  p-2 w-64 max-h-full w-[80%]   pb-3  rounded-sm  overflow-hidden flex  flex-row  gap-4  flex-wrap sm:gap-6    md:gap-6    "  >
+
+    <div  class="p-1 border-cyan-400 rounded-full text-lg  min-w-4 min-h-4  w-20   h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base  border-2   border-gray-300 overflow-hidden      ">
+        <button class="city-button  rounded-full w-full h-full " data-value="new-york">1</button>
+    </div>
+    
+    <div  class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-20  h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base border-2   border-gray-300 overflow-hidden  ">
+        <button class="city-button rounded-full w-full h-full    " data-value="los-angeles">2</button>     
+    </div>
+
+    <div  class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-20 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base border-2   border-gray-300 overflow-hidden  "    >
+        <button class="city-button rounded-full w-full h-full   " data-value="chicago">3</button>
+    </div>
+
+    <div class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-20  p-1 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden"    >
+        <button class="city-button  rounded-full w-full h-full  " data-value="houston">4</button>
+    </div>
+   <div class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-20  p-1 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden"   >
+    <button class="city-button rounded-full w-full h-full " data-value="miami">5</button>
+   </div>
+    
+  </div>
+  
+  </div>
+
+
+
+
+  <div class="gridsevenitem    mb-10 w-[60%] min-w-[20%]  max-w-full  sm:w-[85%] ">
+
+   
+    <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold     min-w-full  min-h-full   overflow-hidden">Name your property</h5>
+    </div>
+ 
+   <div   class="select-cont  pt-4 pl-4 pr-none  w-64  h-12 w-[80%] bg-slate-50  pb-2 border-2 border-gray-300  rounded-sm  overflow-hidden  flex   "  >
+     <input type="text" required class="border-none focus:border-none focus:border-transparent max-w-full min-w-[80%] bg-slate-50 outline-none min-h-full max-w-full   max-h-full  overflow-hidden              "    >     </input>
+     <div    class="w-[20%] min-h-full h-full  ">
+        <img   class="h-full w-full object-contain sm:p-1   "     src="/Tailwind/writelog.svg">  
+     </div>
+     
+  </div>
+  
+  </div>
+
+  <div class="gridsevenitem   mb-10 mb-10 w-[60%] min-w-[20%]  max-w-full  sm:w-[85%] ">
+
+   
+    <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold     min-w-full  min-h-full   overflow-hidden">What do you love your property?</h5>
+    </div>
+ 
+   <div   class="select-cont  p-2 w-64  h-36 w-[80%] bg-slate-50  pb-3 border-2  border-gray-300   rounded-sm     overflow-hidden  "  >
+     <textarea type="text" required    class="border-none focus:border-none focus:border-transparent min-w-full bg-slate-50 outline-none  min-w-full  min-h-full max-w-full   max-h-full  overflow-hidden              "    >     </textarea>
+    
+  </div>
+  
+
+
+  </div>
+
+  <div class="grideightitem   mb-10 w-[60%] min-w-[20%]  max-w-full  sm:w-[85%] ">
+
+   
+    <div   class=" container  w-68  h-38  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold     min-w-full  min-h-full   overflow-hidden">Upload the images of your Property </h5>
+        <label>Properties with images of good Quality</label><br>
+        <label>Generate 8x more leads </label><br>
+        <label>Supported file formats :png,jpeg,heic</label>
+
+    </div>
+ 
+   <div   class="select-cont p-1 w-68  h-12 w-[80%] bg-slate-50  pb-1 border-2 border-gray-300   rounded-sm     overflow-hidden"  >
+ 
+    <input type="file" id="imgUpload" name="img" accept="image/*" class="border-none focus:border-none focus:border-transparent max-width-full min-w-full bg-slate-50 outline-none max-width-full min-w-full  min-h-full max-w-full   max-h-full  overflow-hidden"  > </input>
+    <div id="imageContainer" style="display: none;"></div>
+
+  </div>
+<!-- 
+  <div  class=" h-5  border-5" >
+    <button type="submit" class="min-h-full max-h-full  border-5 border-black   "  id="uploadButton" >Upload<button>
+  </div>
+   -->
+  </div>
+
+
+
+  <div class="grideightitem   mb-10 w-[60%] min-w-[20%]  max-w-full  sm:w-[85%] ">
+
+   
+    <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold     min-w-full  min-h-full   overflow-hidden">Tell us how to contact you ?</h5>
+    </div>
+ 
+   <div   class="select-cont  p-2 w-64  h-10 w-[80%] bg-slate-50  pb-3 border-2 border-gray-300    rounded-sm     overflow-hidden  ">
+    <div>
+    <select   required  class="w-20  "  >
+        <option value="Select code" selected disabled>+92</option>
+    <option value="US"><i  src="/Tailwind/afghanistan.svg" class="/Tailwind/pk.svg"></i>(+1)US</option>
+  <option value="GB"><i class="flag-icon flag-icon-gb"></i>Pk(+92)</option>
+  <option value="GB"><i class="flag-icon flag-icon-gb"></i>IN(+91)</option>
+  <option value="GB"><i class="flag-icon flag-icon-gb"></i> United Kingdom (+44)</option>
+   </select>
+    </div>
+    <input type="text" required class="border-none focus:border-none focus:border-transparent max-width-full min-w-full bg-slate-50 outline-none focus:border-transparent  max-width-full min-w-full  min-h-full max-w-full   max-h-full  overflow-hidden              "    >    </input>
+  </div>
+  
+
+
+  </div>
+
+
+  <div class="gridtenthitem   mb-10  w-[60%] min-w-[20%]  max-w-full  sm:w-[85%]">
+
+   
+    <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+        <h5  class="propertyquestion  text-lg  font-bold     min-w-full  min-h-full   overflow-hidden">what is your name?</h5>
+    </div>
+ 
+   <div   class="select-cont  p-2 w-64  h-10 w-[80%] bg-slate-50  pb-3 border-2 border-gray-300   rounded-sm     overflow-hidden  "  >
+    <input type="text" class="border-none focus:border-none focus:border-transparent max-width-full min-w-full bg-slate-50 outline-none focus:border-transparent min-h-full max-w-full   max-h-full  overflow-hidden              "    >    </input>
+  </div>
+  
+
+
+  </div>
+
+
+  <div class="gridtleventhitem   mb-8 flex  jsutify-flex-start ">
+
+   
+    <div   class=" container  w-36  h-16  overflow-hidden mb-4 inline" >
+        <h5  class="propertyquestion  text-lg  font-bold  min-w-full  min-h-full   overflow-hidden">Specify Availability </h5>
+    </div>
+
+
+        <div class="relative w-16 h-8  ">        
+            <input type="checkbox" id="toggleButton" class="form-checkbox appearance-none h-6 w-6 rounded-full checked:bg-blue-500 checked:border-transparent focus:outline-none focus:shadow-outline">
+            <label  for="toggleButton" class="switch w-32   position:relative   inline-block ">              
+                <span class="slider round absolute cursor-pointer inset-y-0  duration-1000  bg-gray-300
+                "></span>
+            </label>
+        </div>
+            
+    
+    </div>
+
+
+    <!-- here cleints session starts  -->
+
+    <div class="clientsvisibility hidden W-[80%]  h-68    max-h-96 ">
+
+        <div   class=" container  w-68  h-6  pb-4  overflow-hidden mb-4  " >
+            <h5  class="propertyquestion  text-lg  font-bold  min-w-full  min-h-full   overflow-hidden">Choose when you are available ?</h5>
+        </div>
+     
+       <div   class="select-cont  p-2 w-64   h-52 max-h-96  w-[80%]   pb-3  rounded-sm  overflow-hidden flex  flex-row flex-wrap   sm:gap-2   gap-4 "  >
+    
+        <div  class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-32  p-1 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden">
+            <button class="city-button  rounded-full w-full h-full" data-value="new-york">Monday</button>
+        </div>
+        
+        <div  class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-32  p-1 h-8  text-xs inline-block  bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden   ">
+            <button class="city-button" data-value="los-angeles">Tuesday</button>     
+        </div>
+    
+        <div  class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-32  p-1 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden  "    >
+            <button class="city-button" data-value="chicago">Wednesday</button>
+        </div>
+    
+        <div class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-32  p-1 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden"    >
+            <button class="city-button" data-value="houston">Thursday</button>
+        </div>
+
+       <div class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-32  p-1 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden"   >
+        <button class="city-button" data-value="miami">Friday</button>
+       </div>
+        
+
+        <div class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-32  p-1 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden"    >
+            <button class="city-button" data-value="houston">Saturday</button>
+        </div>
+        
+       <div class="p-1 border-cyan-400 rounded-full text-xs  min-w-4 min-h-4  w-32  p-1 h-8  text-xs inline-block   bg-slate-50  spacesbtn activebtn  sm:text-lg sm:font-medium md:text-xl lg:text-base pl-3 pr- pb-7 border-2   border-gray-300 overflow-hidden"   >
+        <button class="city-button" data-value="miami">Sunday</button>
+       </div>
+    
+
+       </div>
+
+
+  </div>
+  
+
+
+<div class="submitbutton  w-60  h-16  bg-red-500  rounded-full mb-10 p-2 flex justify-end ">
+
+<button type="submit"  class="w-full h-full  text-base font-bold  text-white rounded-full  "   > Submit for Review </button>
+</div>
+
+</form>
+
+
+
+
+  </div>
+
+
+
+  <div  id="sticky-element"   class="sticky  sidecontainer hidden mx-auto fixed min-w-[30%]  sm:hidden md:hidden lg:w-[50%] lg:inline-block  lg:sticky lg:px-6 lg:pr-[16%] lg:pt-32     ">
+
+   <div  class="min-w-full  max-w-full   min-h-1/2 max-h-1/2      "   >
+   <img  class="min-w-full     w-full h-full max-w-full   min-h-full max-h-full object-cover "    src="/Tailwind/sdf.jpeg"  alt="mobileimg" >
+   </div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script  src="script.js"> </script>  
+</body>
+</html>
